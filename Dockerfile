@@ -28,7 +28,7 @@ RUN mkdir -p /var/run/sshd \
     && echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config \
     && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config
 
-RUN ngrok config add-authtoken $3GuPeXQ9MVqLg2GUfb8sL8CmcNS_3pbxHqvuEtAzjAbeTLsrR
+RUN ngrok config add-authtoken 3GuPeXQ9MVqLg2GUfb8sL8CmcNS_3pbxHqvuEtAzjAbeTLsrR
 
 RUN echo "uditanshu" > /etc/hostname
 
